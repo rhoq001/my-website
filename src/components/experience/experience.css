@@ -1,0 +1,105 @@
+.experience__container {
+    background-color: transparent;
+    padding: 2rem;
+
+    border-radius: 2rem;
+    border-width: 1px;
+    border: solid var(--color-primary-variant);
+
+    transition: all 500ms ease-in-out;
+}
+
+.experience_card {
+    background: var(--color-bg-variant);
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    padding: 2rem;
+    transition: all 400ms ease-in-out;
+}
+
+.experience_card:hover {
+    background: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.exp__title {
+    color: rgb(104, 37, 100);
+    font-weight: bold;
+}
+
+.experience__container:hover {
+    background-color: var(--color-primary-variant);
+    transition: all 500ms ease-in-out;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icons {
+    background: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
+    font-size: 1.2rem;
+
+    border-radius: 50%;
+}
+
+.icons:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    cursor: default;
+    border-radius: 50%;
+
+    transition: all 400ms ease;
+}
+
+section > h2 {
+    background-color: rgb(14, 7, 42);
+    margin-bottom: 0rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    border-radius: 2rem;
+    color: var(--color-primary);
+    
+    padding: 2rem;
+}
+
+ul.experience__list li {
+    font-size: 0.9rem;
+    font-family: "Indie Flower";
+    padding-top: 0.25rem;;
+    border-radius: 0.25em;
+}
+
+ul.experience__list li::before {
+    content: "\2022";
+    color: purple;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+.edu__header {
+    color: rgb(104, 37, 100);
+}
+
+.italicize {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.start__icon {
+    text-align: center;
+    color: rgb(32, 24, 146);
+    font-size: 5rem;
+}
